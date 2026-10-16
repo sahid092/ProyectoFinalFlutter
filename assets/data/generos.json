@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "nombre": "Drama",
+        "descripcion": "Historias intensas y humanas",
+        "icono": "drama"
+    },
+    {
+        "id": 2,
+        "nombre": "Ciencia ficción",
+        "descripcion": "Futuros, espacio y tecnología",
+        "icono": "ciencia"
+    },
+    {
+        "id": 3,
+        "nombre": "Animación",
+        "descripcion": "Mundos dibujados para todas las edades",
+        "icono": "animacion"
+    }
+]

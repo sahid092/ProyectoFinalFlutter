@@ -1,0 +1,135 @@
+[
+    {
+        "id": 1,
+        "generoId": 1,
+        "titulo": "El laberinto del fauno",
+        "imagen": "https://picsum.photos/id/1015/800/600",
+        "anio": 2006,
+        "duracion": "118 min",
+        "calificacion": 8.2,
+        "director": "Guillermo del Toro",
+        "sinopsis": "En la España de posguerra, una niña descubre un laberinto y una criatura que le encarga tres pruebas, mientras su realidad se vuelve cada vez más dura.",
+        "reparto": [
+            "Ivana Baquero",
+            "Sergi López",
+            "Maribel Verdú",
+            "Doug Jones"
+        ]
+    },
+    {
+        "id": 2,
+        "generoId": 1,
+        "titulo": "Roma",
+        "imagen": "https://picsum.photos/id/1016/800/600",
+        "anio": 2018,
+        "duracion": "135 min",
+        "calificacion": 7.7,
+        "director": "Alfonso Cuarón",
+        "sinopsis": "Un año en la vida de Cleo, trabajadora doméstica de una familia de clase media en la Ciudad de México de los años setenta.",
+        "reparto": [
+            "Yalitza Aparicio",
+            "Marina de Tavira",
+            "Nancy García"
+        ]
+    },
+    {
+        "id": 3,
+        "generoId": 1,
+        "titulo": "Parásitos",
+        "imagen": "https://picsum.photos/id/1018/800/600",
+        "anio": 2019,
+        "duracion": "132 min",
+        "calificacion": 8.5,
+        "director": "Bong Joon-ho",
+        "sinopsis": "Una familia sin recursos se va metiendo poco a poco en la vida de una familia adinerada, y el plan empieza a salirse de control.",
+        "reparto": [
+            "Song Kang-ho",
+            "Choi Woo-shik",
+            "Park So-dam",
+            "Lee Sun-kyun"
+        ]
+    },
+    {
+        "id": 4,
+        "generoId": 1,
+        "titulo": "Amores perros",
+        "imagen": "https://picsum.photos/id/1019/800/600",
+        "anio": 2000,
+        "duracion": "154 min",
+        "calificacion": 8.1,
+        "director": "Alejandro González Iñárritu",
+        "sinopsis": "Un accidente de auto cruza las historias de tres personas de la Ciudad de México que no tenían nada que ver entre sí.",
+        "reparto": [
+            "Emilio Echevarría",
+            "Gael García Bernal",
+            "Goya Toledo",
+            "Álvaro Guerrero"
+        ]
+    },
+    {
+        "id": 5,
+        "generoId": 2,
+        "titulo": "Interestelar",
+        "imagen": "https://picsum.photos/id/1011/800/600",
+        "anio": 2014,
+        "duracion": "169 min",
+        "calificacion": 8.7,
+        "director": "Christopher Nolan",
+        "sinopsis": "Con la Tierra al borde del colapso, un grupo de astronautas viaja a través de un agujero de gusano en busca de un nuevo hogar para la humanidad.",
+        "reparto": [
+            "Matthew McConaughey",
+            "Anne Hathaway",
+            "Jessica Chastain",
+            "Michael Caine"
+        ]
+    },
+    {
+        "id": 6,
+        "generoId": 2,
+        "titulo": "Blade Runner 2049",
+        "imagen": "https://picsum.photos/id/1039/800/600",
+        "anio": 2017,
+        "duracion": "164 min",
+        "calificacion": 8.0,
+        "director": "Denis Villeneuve",
+        "sinopsis": "Un nuevo blade runner descubre un secreto enterrado que podría cambiar el orden de la sociedad y lo lleva a buscar a un agente desaparecido hace décadas.",
+        "reparto": [
+            "Ryan Gosling",
+            "Harrison Ford",
+            "Ana de Armas",
+            "Jared Leto"
+        ]
+    },
+    {
+        "id": 7,
+        "generoId": 3,
+        "titulo": "Coco",
+        "imagen": "https://picsum.photos/id/1043/800/600",
+        "anio": 2017,
+        "duracion": "105 min",
+        "calificacion": 8.4,
+        "director": "Lee Unkrich",
+        "sinopsis": "Miguel sueña con ser músico aunque su familia lo tiene prohibido, y termina en la Tierra de los Muertos buscando a su tatarabuelo.",
+        "reparto": [
+            "Anthony Gonzalez",
+            "Gael García Bernal",
+            "Benjamin Bratt"
+        ]
+    },
+    {
+        "id": 8,
+        "generoId": 3,
+        "titulo": "El viaje de Chihiro",
+        "imagen": "https://picsum.photos/id/1044/800/600",
+        "anio": 2001,
+        "duracion": "125 min",
+        "calificacion": 8.6,
+        "director": "Hayao Miyazaki",
+        "sinopsis": "Chihiro queda atrapada en un mundo de espíritus y tiene que trabajar en unos baños para poder rescatar a sus padres.",
+        "reparto": [
+            "Rumi Hiiragi",
+            "Miyu Irino",
+            "Mari Natsuki"
+        ]
+    }
+]
