@@ -30,7 +30,7 @@ class _HomeScreenState extends State<HomeScreen> {
     return Scaffold(
       appBar: AppBar(
         title: const Text(
-          'Cartelera',
+          'Aplicacion de Películas',
           style: TextStyle(fontWeight: FontWeight.bold),
         ),
         actions: [

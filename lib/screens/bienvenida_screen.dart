@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 
 import '../theme/app_colors.dart';
 import '../widgets/boton_principal.dart';
-import 'acerca_screen.dart';
 import 'home_screen.dart';
 
 class BienvenidaScreen extends StatelessWidget {
@@ -24,7 +23,7 @@ class BienvenidaScreen extends StatelessWidget {
               ),
               const SizedBox(height: 16),
               const Text(
-                'Cartelera',
+                'Aplicacion de Películas',
                 style: TextStyle(
                   fontSize: 28,
                   fontWeight: FontWeight.bold,
@@ -47,13 +46,6 @@ class BienvenidaScreen extends StatelessWidget {
                 ),
               ),
               const SizedBox(height: 12),
-              TextButton(
-                onPressed: () => Navigator.push(
-                  context,
-                  MaterialPageRoute(builder: (_) => const AcercaScreen()),
-                ),
-                child: const Text('Acerca de la app'),
-              ),
             ],
           ),
         ),

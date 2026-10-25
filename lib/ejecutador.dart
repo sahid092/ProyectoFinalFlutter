@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:proyecto_final/screens/bienvenida_screen.dart';
 
+import 'screens/bienvenida_screen.dart';
 import 'theme/app_theme.dart';
 
 void main() {
