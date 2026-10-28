@@ -22,6 +22,20 @@ class GeneroCard extends StatelessWidget {
     }
   }
 
+  // Función que devuelve el enlace de la imagen según el género
+  String _imagenDe(String nombre) {
+    switch (nombre.toLowerCase()) {
+      case 'drama':
+        return 'https://images.unsplash.com/photo-1485846234645-a62644f84728';
+      case 'ciencia':
+        return 'https://images.unsplash.com/photo-1518709268805-4e9042af9f23';
+      case 'animacion':
+        return 'https://images.unsplash.com/photo-1626544827763-d516dce335e2';
+      default:
+        return 'https://images.unsplash.com/photo-1489599849927-2ee91cede3ba';
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
     return Card(
@@ -34,7 +48,8 @@ class GeneroCard extends StatelessWidget {
         leading: CircleAvatar(
           radius: 26,
           backgroundColor: AppColors.secundario.withAlpha(110),
-          child: Icon(_iconoDe(genero.icono), color: AppColors.texto),
+          // Aquí cargamos la imagen en lugar del icono
+          backgroundImage: NetworkImage(_imagenDe(genero.icono)),
         ),
         title: Text(
           genero.nombre,
